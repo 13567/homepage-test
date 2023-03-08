@@ -69,7 +69,7 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            <Logo />
+            <h1>MoonBit</h1>
           </LogoWrapper>
         </NextLink>
         <NavItemList>
@@ -102,7 +102,7 @@ function NavItem({ href, title, outlined }: SingleNavItem) {
   return (
     <NavItemWrapper outlined={outlined}>
       <NextLink href={href} passHref>
-        <a>{title}</a>
+        <a target={/^https?:\/\//.test(href) ? '_blank' : '_self'}>{title}</a>
       </NextLink>
     </NavItemWrapper>
   );

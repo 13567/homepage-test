@@ -14,21 +14,16 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
-        <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
-        </Description>
+        <CustomOverTitle>月兔智能开发平台</CustomOverTitle>
+        <Heading>简单、准确、易扩展、高性能</Heading>
+        <Description>下一代智能开发者平台，让开发更简单，从代码层面提升性能，打破硬件束缚，在云端提供 Native 开发体验</Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
-          </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
+          <NextLink href="/features" passHref>
+            <Button>阅读文档</Button>
           </NextLink>
+          <Button transparent onClick={() => window.open('https://raelidea.github.io/fun/')}>
+            Demo 试用<span>&rarr;</span>
+          </Button>
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
