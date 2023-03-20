@@ -73,7 +73,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2023 MoonBit&nbsp;&nbsp;京公网安备11000002000001号</Copyright>
+          <Copyright>&copy; Copyright 2023 MoonBit&nbsp;&nbsp;粤ICP备2020119212号-9</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>
