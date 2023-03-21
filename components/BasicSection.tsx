@@ -42,7 +42,7 @@ const Title = styled.h1`
 `;
 
 const CustomOverTitle = styled(OverTitle)`
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 `;
 
 const ImageContainer = styled.div`

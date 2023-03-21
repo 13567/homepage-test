@@ -28,7 +28,7 @@ export default function WaveCta() {
                 阅读文档 <span>&rarr;</span>
               </Button>
             </NextLink>
-            <OutlinedButton transparent onClick={() => window.open('https://raelidea.github.io/fun/')}>
+            <OutlinedButton transparent onClick={() => window.open('https://moonbitlang.com/try')}>
               Demo 试用 <span>&rarr;</span>
             </OutlinedButton>
           </CustomButtonGroup>
