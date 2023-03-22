@@ -10,7 +10,7 @@ export default function NotFoundPage() {
           <NotFoundIllustration />
         </ImageContainer>
         <Title>Still in Progress</Title>
-        <Description>Oh, that&apos;s unfortunate! Page not found 😔</Description>
+        <Description>请耐心等待</Description>
       </Container>
     </Wrapper>
   );
