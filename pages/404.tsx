@@ -9,7 +9,7 @@ export default function NotFoundPage() {
         <ImageContainer>
           <NotFoundIllustration />
         </ImageContainer>
-        <Title>404</Title>
+        <Title>Still in Progress</Title>
         <Description>Oh, that&apos;s unfortunate! Page not found 😔</Description>
       </Container>
     </Wrapper>
