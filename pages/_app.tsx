@@ -20,7 +20,7 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'Playground', href: 'https://moonbitlang.com/try' },
+  { title: 'Playground', href: 'https://try.moonbitlang.com' },
   { title: 'Forum', href: 'https://forum.moonbitlang.com/' },
   { title: 'Documents', href: '/features' }
 ];
