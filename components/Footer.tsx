@@ -12,34 +12,31 @@ type FooterItems = SingleFooterList[];
 const footerItems: FooterItems = [
   {
     title: 'Moonbit',
-    items: [
-      { title: 'Moonbit LOGO', href: '/privacy-policy' },
+    items: [   
+
       { title: '版权信息', href: '/cookies-policy' },
     ],
   },
   {
     title: 'Team',
     items: [
-      { title: '关于我们', href: '/features' },
-      { title: '招贤纳士', href: '/something' },
-      { title: '我们的价值观', href: '/something-else' },
-      { title: '团队介绍', href: '/and-something-else' },
+      { title: '关于我们', href: 'https://www.idea.edu.cn/research/dii.html' },
+      { title: '招贤纳士', href: 'https://mp.weixin.qq.com/s?__biz=MzkxMzQyMDM1OA==&mid=2247484071&idx=1&sn=66d80ea06770fceaac09c9d82e1871b0&chksm=c17cbb8ef60b3298135c84d71418c415fc8fe7d93f9253fe8e509c7dc980e35b0b173cc0bc09&token=961602424&lang=zh_CN#rd' },
     ],
   },
   {
     title: 'Product',
     items: [
-      { title: 'Moonbitlang', href: '/blog' },
-      { title: 'IDE', href: '/contact' },
+      { title: 'Moonbitlang', href: '/something-else' },
+      { title: 'IDE', href: '/and-something-else' },
     ],
   },
   {
     title: 'Something',
     items: [
-      { title: 'GitHub', href: '/features2' },
-      { title: '微信公众号', href: '/something2' },
-      { title: 'Bilibili', href: '/something-else2' },
-      { title: '知乎', href: '/and-something-else2' },
+      { title: '微信公众号', href: 'https://mp.weixin.qq.com/s?__biz=MzkxMzQyMDM1OA==&mid=2247483666&idx=1&sn=87407757cbd7585bafd2e8f931938788&chksm=c17cb83bf60b312d682edeaba1deb794a84afcf71b5e6746cd2658757f115cc6dc4de765dd6f&token=961602424&lang=zh_CN#rd' },
+      { title: 'Bilibili', href: 'https://space.bilibili.com/1453436642' },
+      { title: '知乎', href: 'https://www.zhihu.com/people/rescript' },
     ],
   },
 ];

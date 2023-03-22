@@ -26,7 +26,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
+          
           <BasicSection imageUrl="/homepage/products.jpeg" title="全产品矩阵协同构建" overTitle="产品特性展示">
             <ul>
               <li>程序语言、编译器、构建系统、IDE 整体协同设计保证了系统的完整性，减少组件摩擦，提升整体效率</li>
@@ -52,7 +52,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             <ul>
               <li>半结构化编辑器设计</li>
               <li>在云端提供本地开发体验</li>
-              <li>AI 助手</li>
+              <li>AIGC 支持</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>

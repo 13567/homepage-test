@@ -20,11 +20,9 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'Documents', href: '/features' },
-  { title: 'Playground', href: 'https://raelidea.github.io/fun/' },
-  { title: 'Pricing', href: '/pricing' },
-  { title: 'Contact', href: '/contact' },
-  { title: 'Sign up', href: '/sign-up', outlined: true },
+  { title: 'Playground', href: 'https://moonbitlang.com/try' },
+  { title: 'Forum', href: 'https://forum.moonbitlang.com/' },
+  { title: 'Documents', href: '/features' }
 ];
 
 const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });

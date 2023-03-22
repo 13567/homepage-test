@@ -21,7 +21,7 @@ export default function Hero() {
           <NextLink href="/features" passHref>
             <Button>阅读文档</Button>
           </NextLink>
-          <Button transparent onClick={() => window.open('https://raelidea.github.io/fun/')}>
+          <Button transparent onClick={() => window.open('https://moonbitlang.com/try')}>
             Demo 试用<span>&rarr;</span>
           </Button>
         </CustomButtonGroup>
