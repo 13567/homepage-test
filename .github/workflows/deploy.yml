@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '18.x'
           cache: 'npm'
-      - run: rm -rf node_modules && yarn install
+      - run: yarn install —production=false
       - run: yarn build
       - run: yarn export
 
