@@ -20,9 +20,9 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'Playground', href: 'https://try.moonbitlang.com' },
-  { title: 'Forum', href: 'https://forum.moonbitlang.com/' },
-  { title: 'Documents', href: '/features' }
+  { title: 'DEMO 试用', href: 'https://try.moonbitlang.com' },
+  { title: '论坛', href: 'https://forum.moonbitlang.com/' },
+  { title: '文档', href: '/features' }
 ];
 
 const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
