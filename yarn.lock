@@ -2129,12 +2129,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.14.0, @babel/runtime@npm:^7.14.6, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.14.0, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.20.7
   resolution: "@babel/runtime@npm:7.20.7"
   dependencies:
     regenerator-runtime: ^0.13.11
   checksum: 4629ce5c46f06cca9cfb9b7fc00d48003335a809888e2b91ec2069a2dcfbfef738480cff32ba81e0b7c290f8918e5c22ddcf2b710001464ee84ba62c7e32a3a3
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.18.9":
+  version: 7.21.0
+  resolution: "@babel/runtime@npm:7.21.0"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 7b33e25bfa9e0e1b9e8828bb61b2d32bdd46b41b07ba7cb43319ad08efc6fda8eb89445193e67d6541814627df0ca59122c0ea795e412b99c5183a0540d338ab
   languageName: node
   linkType: hard
 
@@ -5511,23 +5520,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"all-contributors-cli@npm:^6.20.0":
-  version: 6.20.0
-  resolution: "all-contributors-cli@npm:6.20.0"
+"all-contributors-cli@npm:^6.24.0":
+  version: 6.24.0
+  resolution: "all-contributors-cli@npm:6.24.0"
   dependencies:
     "@babel/runtime": ^7.7.6
-    async: ^3.0.1
+    async: ^3.1.0
     chalk: ^4.0.0
     didyoumean: ^1.2.1
-    inquirer: ^7.0.4
-    json-fixer: ^1.5.1
+    inquirer: ^7.3.3
+    json-fixer: ^1.6.8
     lodash: ^4.11.2
     node-fetch: ^2.6.0
     pify: ^5.0.0
     yargs: ^15.0.1
   bin:
     all-contributors: dist/cli.js
-  checksum: 3ac54cc73b75960be0d0304b22301d56f2422d509660860ab5cdb55bce1a3a1d3b3eba63b470a6edbe9568dfc4fd0c8176b0702ea2bdb430376c9c57900f53f4
+  checksum: 26b0a5ec014185d79380a90c5603d26100f8d57956cabbf92b68d3567de058787f5a4ddf788e3b3e71802dff827c3c096c6052805473f243f912018c31a024b7
   languageName: node
   linkType: hard
 
@@ -5895,10 +5904,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^3.0.1":
-  version: 3.2.1
-  resolution: "async@npm:3.2.1"
-  checksum: fcd6dc73d36bdb0e5bf978ea27832136cc8116cef15e0a2dc9a5c63f362c5f82363996a349bf3046d590587b7f30614ac340a4f3db6d48780a07f40f81941e0c
+"async@npm:^3.1.0":
+  version: 3.2.4
+  resolution: "async@npm:3.2.4"
+  checksum: 43d07459a4e1d09b84a20772414aa684ff4de085cbcaec6eea3c7a8f8150e8c62aa6cd4e699fe8ee93c3a5b324e777d34642531875a0817a35697522c1b02e89
   languageName: node
   linkType: hard
 
@@ -6614,7 +6623,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -8998,7 +9007,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.1.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -9849,7 +9858,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:^7.0.4":
+"inquirer@npm:^7.3.3":
   version: 7.3.3
   resolution: "inquirer@npm:7.3.3"
   dependencies:
@@ -10741,14 +10750,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-fixer@npm:^1.5.1":
-  version: 1.6.12
-  resolution: "json-fixer@npm:1.6.12"
+"json-fixer@npm:^1.6.8":
+  version: 1.6.15
+  resolution: "json-fixer@npm:1.6.15"
   dependencies:
-    "@babel/runtime": ^7.14.6
-    chalk: ^4.1.1
+    "@babel/runtime": ^7.18.9
+    chalk: ^4.1.2
     pegjs: ^0.10.0
-  checksum: 66d10bfe595b545dce12545d5565cfaafffe5a1ad1e1913998002984c8571d2617af14615750af9c55c0311f869c66c1e5b8514ed1e40837138b472319d26567
+  checksum: ae805d5155ace57fd588a9ec129efd7324c3ef7f622988c66301eed9380da0acccdd35e9355b307c53051b246e2118d17a40775a2b13f19221574f5f662d4b15
   languageName: node
   linkType: hard
 
@@ -12804,7 +12813,7 @@ __metadata:
     "@types/swiper": ^5.4.3
     "@typescript-eslint/eslint-plugin": ^4.33.0
     "@typescript-eslint/parser": ^4.33.0
-    all-contributors-cli: ^6.20.0
+    all-contributors-cli: ^6.24.0
     babel-eslint: ^10.1.0
     copy-webpack-plugin: ^11.0.0
     css-in-js-media: ^2.0.1
@@ -15058,7 +15067,7 @@ remark-mdx@next:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
@@ -15068,7 +15077,7 @@ remark-mdx@next:
 
 "resolve@patch:resolve@^2.0.0-next.3#~builtin<compat/resolve>":
   version: 2.0.0-next.3
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#~builtin<compat/resolve>::version=2.0.0-next.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#~builtin<compat/resolve>::version=2.0.0-next.3&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
@@ -16737,7 +16746,7 @@ remark-mdx@next:
 
 "typescript@patch:typescript@4.7.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.3.5#~builtin<compat/typescript>":
   version: 4.7.4
-  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
